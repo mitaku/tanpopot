@@ -1,6 +1,8 @@
 require "tanpopot/version"
 require "cinch"
 require "tanpopot/bot"
+require "tanpopot/trac_ext"
+require "tanpopot/trac_helper"
 
 module Tanpopot
   class << self

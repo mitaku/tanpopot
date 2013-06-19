@@ -10,4 +10,4 @@ class HelloWorld
 end
 
 Tanpopot.require_plugins
-Tanpopot.start("10.19.114.76", channels: ["#tanpopo"], nickname: "tanpopot", plugins: [HelloWorld])
+Tanpopot.start("127.0.0.1", channels: ["#tanpopo"], nickname: "tanpopot", plugins: [HelloWorld])
