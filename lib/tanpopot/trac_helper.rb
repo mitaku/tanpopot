@@ -10,6 +10,7 @@ class Tanpopot::TracHelper
       listen_to :privmsg
 
       def listen(m)
+        @msg = m
         msg = m.message
         if msg =~ regexp
           text = $1
